@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <div>
+<form action="result.html" method="get"><!--iki tür method var get ve post, post güvenlidir-->
+    <!--biz neden result.html actik: cunku doldurulan formlarin gitmesi gerektigi bir sayfa gerekli-->
+    <!--<form action="mailto:sados45@gmail.com method=POST"> bu sekilde direk maile de gönderilebiliyormus postalar...-->
+    <label for="Fname">First Name:</label>
+<input type="text" name="name" id='Fname' value="First Name"/>
+</div>
+<div>
+<label>Email:</label> 
+<input type="email"  id="email" id="email"/>
+</div>
+<div>
+    <label>Password:</label>
+    <input type="password" name="password" id="password"/>
+</div>
+<div>
+<input type="radio" name="lang" value="en"/>English
+<!--<label for="en">English</label> bu sekilde yazarsak yukarida English yazan yere  bunu yazarsak illa radio yuvarlagina dokunmadan English yazisinin üstüne tiklaninca bile isaretleme yapilmis olur.-->
+<input type="radio" name="lang" value="'deu"/>Deutsch
+</div>
+<input type="submit" name="" value="Submit"/>
+
+</form>
+</body>
+</html>
